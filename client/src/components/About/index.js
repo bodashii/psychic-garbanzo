@@ -3,13 +3,26 @@ import "bulma/css/bulma.min.css";
 
 function About() {
   return (
-    <section>
-      <h1 id="about">Nicolas Young</h1>
-      <img src="../../logo512.png" alt="logo2" />
-      <h3>Developer, Designer, Doer.</h3>
-      <article>
-        <h3>Hello World!</h3>
-        <p>
+    <section className="container is-fluid">
+      <div className="container is-fluid d-flex">
+        <h1
+          className="title is-1 has-text-centered has-justify-content-center"
+          id="about"
+        >
+          Nicolas Young
+        </h1>
+        <figure class="image is-512x512">
+          <img src="../../logo512.png" alt="logo2" />
+        </figure>
+
+        <h3 className="title is-3 has-text-centered">Developer, Designer, Doer.</h3>
+      </div>
+
+          <article className="container">
+              
+              <br/>
+        <h5 className="title is-5 has-text-centered">Hello World!</h5>
+        <p className="content">
           An avid gamer from my first console. The Super Nintendo entertainment
           System for those curious. I took up programming early around the age
           of 10. Even though some concepts were hard to understand at an early

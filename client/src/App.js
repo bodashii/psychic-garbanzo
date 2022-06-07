@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./components/About";
-import Nav from "./components/Nav";
+import Nav from "./components/Navigation";
 import 'bulma/css/bulma.min.css';
 
 function App() {
