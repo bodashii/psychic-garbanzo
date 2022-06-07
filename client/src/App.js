@@ -1,16 +1,13 @@
-import './App.css';
-import React from 'react';
-import About from './components/About';
+import React from "react";
+import About from "./components/About";
+import Nav from "./components/Nav";
+import 'bulma/css/bulma.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
-        <main>
+      <Nav></Nav>
           <About></About>
-        </main>
-      </header>
     </div>
   );
 }
