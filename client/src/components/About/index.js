@@ -11,7 +11,7 @@ function About() {
         >
           Nicolas Young
         </h1>
-        <figure class="image is-512x512">
+        <figure class="image ">
           <img src="../../logo512.png" alt="logo2" />
         </figure>
 
