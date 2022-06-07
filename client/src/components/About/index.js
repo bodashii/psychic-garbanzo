@@ -3,7 +3,7 @@ import "bulma/css/bulma.min.css";
 
 function About() {
   return (
-    <section className="container is-fluid">
+    <section className="section">
       <div className="container is-fluid d-flex">
         <h1
           className="title is-1 has-text-centered has-justify-content-center"

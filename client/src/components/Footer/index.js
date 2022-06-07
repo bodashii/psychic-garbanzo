@@ -1,16 +1,27 @@
 import React from "react";
+import "bulma/css/bulma.min.css";
 
 function Footer() {
   return (
     <div className="container">
-      <div className="box">
-        <h4 className="title is-4 has-text-centered">Contact</h4>
-        <div className="container">
-          <div className="is-flex">
-            <a target="_blank" href="https://github.com/maddnty">
+      <h4 className="title is-4 has-text-centered">Contact</h4>
+      <div className="container is-fluid is-justify-content-center is-flex-direction-row">
+        <div className="columns">
+          <div className="column">
+            <a
+              target="_blank"
+              href="https://github.com/maddnty"
+              rel="noreferrer"
+            >
               git
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/nicolas-young-818560227/">
+          </div>
+          <div className="column">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nicolas-young-818560227/"
+              rel="noreferrer"
+            >
               linked in
             </a>
           </div>
