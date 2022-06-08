@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "bulma": "^0.9.4"
+  "homepage": "http://maddnty:.github.io/psychic-garbanzo",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

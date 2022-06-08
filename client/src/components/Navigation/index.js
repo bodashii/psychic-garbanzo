@@ -13,7 +13,7 @@ function Nav() {
           <a class="navbar-item is-hoverable" href="#about">
             About
           </a>
-          <div class="navbar-item has-dropdown is-hoverable">
+          {/* <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Portfolio</a>
               <div class="navbar-dropdown is-hidden">
                 <a class="navbar-item">Proj 1</a>
@@ -21,7 +21,7 @@ function Nav() {
                 <a class="navbar-item">Proj 3</a>
                 <hr class="navbar-divider" />
               </div>
-          </div>
+          </div> */}
 
           <a class="navbar-item is-hoverable" href="#contact">
             Contact
